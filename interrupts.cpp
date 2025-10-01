@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
         else if (activity == "SYSCALL" || activity == "END_IO"){
             int deviceNum = duration_intr;
 
-            if (deviceNum < 0 || deviceNum >= delays.size() || deviceNum >= vectors.size()){
+            if (deviceNum < 0 || deviceNum >= (int)delays.size() || deviceNum >= (int)vectors.size()){
                 execution += std::to_string(current_time) + "," + std::to_string(0) + ", WarningL invalid device number " + std::to_string(deviceNum) + "int trace.txt\n";
                 continue;
             }
