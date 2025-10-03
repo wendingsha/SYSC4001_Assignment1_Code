@@ -22,87 +22,217 @@
 393,10, context restored
 403, 1, switch to user model
 404, 152: interrupt
-404,100, CPU executing
-504, 1, switch to kernel mode
-505, 10, context saved
-515, 1, find vector 12 in memory position 0x0018
-516, 1, load address 0X03B9 into the PC
-517,40, execute ISR activity
-557,40, execute ISR activity
-597,40, execute ISR activity
-637,25, execute ISR activity
-662,1, IRET
-663,10, context restored
-673, 1, switch to user model
-674, 1, switch to kernel mode
-675, 10, context saved
-685, 1, find vector 12 in memory position 0x0018
-686, 1, load address 0X03B9 into the PC
-687,40, execute ISR activity
-727,40, execute ISR activity
-767,40, execute ISR activity
-807,25, execute ISR activity
-832,1, IRET
-833,10, context restored
-843, 1, switch to user model
-844, 145: interrupt
-844,20, CPU executing
-864, 1, switch to kernel mode
-865, 10, context saved
-875, 1, find vector 5 in memory position 0x000A
-876, 1, load address 0X048B into the PC
-877,40, execute ISR activity
-917,40, execute ISR activity
-957,40, execute ISR activity
-997,40, execute ISR activity
-1037,40, execute ISR activity
-1077,11, execute ISR activity
-1088,1, IRET
-1089,10, context restored
-1099, 1, switch to user model
-1100, 1, switch to kernel mode
-1101, 10, context saved
-1111, 1, find vector 5 in memory position 0x000A
-1112, 1, load address 0X048B into the PC
-1113,40, execute ISR activity
-1153,40, execute ISR activity
-1193,40, execute ISR activity
-1233,40, execute ISR activity
-1273,40, execute ISR activity
-1313,11, execute ISR activity
-1324,1, IRET
-1325,10, context restored
-1335, 1, switch to user model
-1336, 211: interrupt
-1336,30, CPU executing
-1366, 1, switch to kernel mode
-1367, 10, context saved
-1377, 1, find vector 3 in memory position 0x0006
-1378, 1, load address 0X042B into the PC
-1379,40, execute ISR activity
-1419,40, execute ISR activity
-1459,40, execute ISR activity
-1499,40, execute ISR activity
-1539,40, execute ISR activity
-1579,40, execute ISR activity
-1619,40, execute ISR activity
-1659,20, execute ISR activity
-1679,1, IRET
-1680,10, context restored
-1690, 1, switch to user model
-1691, 1, switch to kernel mode
-1692, 10, context saved
-1702, 1, find vector 3 in memory position 0x0006
-1703, 1, load address 0X042B into the PC
-1704,40, execute ISR activity
-1744,40, execute ISR activity
-1784,40, execute ISR activity
-1824,40, execute ISR activity
-1864,40, execute ISR activity
-1904,40, execute ISR activity
-1944,40, execute ISR activity
-1984,20, execute ISR activity
-2004,1, IRET
-2005,10, context restored
-2015, 1, switch to user model
-2016, 300: interrupt
+404,75, CPU executing
+479, 1, switch to kernel mode
+480, 10, context saved
+490, 1, find vector 5 in memory position 0x000A
+491, 1, load address 0X048B into the PC
+492,40, execute ISR activity
+532,40, execute ISR activity
+572,40, execute ISR activity
+612,40, execute ISR activity
+652,40, execute ISR activity
+692,11, execute ISR activity
+703,1, IRET
+704,10, context restored
+714, 1, switch to user model
+715, 1, switch to kernel mode
+716, 10, context saved
+726, 1, find vector 10 in memory position 0x0014
+727, 1, load address 0X07B0 into the PC
+728,40, execute ISR activity
+768,40, execute ISR activity
+808,40, execute ISR activity
+848,40, execute ISR activity
+888,40, execute ISR activity
+928,40, execute ISR activity
+968,40, execute ISR activity
+1008,40, execute ISR activity
+1048,40, execute ISR activity
+1088,40, execute ISR activity
+1128,40, execute ISR activity
+1168,40, execute ISR activity
+1208,40, execute ISR activity
+1248,40, execute ISR activity
+1288,4, execute ISR activity
+1292,1, IRET
+1293,10, context restored
+1303, 1, switch to user model
+1304, 564: interrupt
+1304,51, CPU executing
+1355, 1, switch to kernel mode
+1356, 10, context saved
+1366, 1, find vector 14 in memory position 0x001C
+1367, 1, load address 0X0165 into the PC
+1368,40, execute ISR activity
+1408,40, execute ISR activity
+1448,40, execute ISR activity
+1488,40, execute ISR activity
+1528,40, execute ISR activity
+1568,40, execute ISR activity
+1608,40, execute ISR activity
+1648,40, execute ISR activity
+1688,40, execute ISR activity
+1728,40, execute ISR activity
+1768,40, execute ISR activity
+1808,16, execute ISR activity
+1824,1, IRET
+1825,10, context restored
+1835, 1, switch to user model
+1836, 1, switch to kernel mode
+1837, 10, context saved
+1847, 1, find vector 19 in memory position 0x0026
+1848, 1, load address 0X0765 into the PC
+1849,40, execute ISR activity
+1889,40, execute ISR activity
+1929,40, execute ISR activity
+1969,40, execute ISR activity
+2009,40, execute ISR activity
+2049,40, execute ISR activity
+2089,40, execute ISR activity
+2129,40, execute ISR activity
+2169,40, execute ISR activity
+2209,40, execute ISR activity
+2249,40, execute ISR activity
+2289,40, execute ISR activity
+2329,40, execute ISR activity
+2369,40, execute ISR activity
+2409,40, execute ISR activity
+2449,40, execute ISR activity
+2489,12, execute ISR activity
+2501,1, IRET
+2502,10, context restored
+2512, 1, switch to user model
+2513, 652: interrupt
+2513,75, CPU executing
+2588, 1, switch to kernel mode
+2589, 10, context saved
+2599, 1, find vector 6 in memory position 0x000C
+2600, 1, load address 0X0639 into the PC
+2601,40, execute ISR activity
+2641,40, execute ISR activity
+2681,40, execute ISR activity
+2721,40, execute ISR activity
+2761,40, execute ISR activity
+2801,40, execute ISR activity
+2841,25, execute ISR activity
+2866,1, IRET
+2867,10, context restored
+2877, 1, switch to user model
+2878, 1, switch to kernel mode
+2879, 10, context saved
+2889, 1, find vector 8 in memory position 0x0010
+2890, 1, load address 0X06EF into the PC
+2891,40, execute ISR activity
+2931,40, execute ISR activity
+2971,40, execute ISR activity
+3011,40, execute ISR activity
+3051,40, execute ISR activity
+3091,40, execute ISR activity
+3131,40, execute ISR activity
+3171,40, execute ISR activity
+3211,40, execute ISR activity
+3251,40, execute ISR activity
+3291,40, execute ISR activity
+3331,40, execute ISR activity
+3371,40, execute ISR activity
+3411,40, execute ISR activity
+3451,40, execute ISR activity
+3491,40, execute ISR activity
+3531,40, execute ISR activity
+3571,40, execute ISR activity
+3611,40, execute ISR activity
+3651,40, execute ISR activity
+3691,40, execute ISR activity
+3731,40, execute ISR activity
+3771,40, execute ISR activity
+3811,40, execute ISR activity
+3851,40, execute ISR activity
+3891,1, IRET
+3892,10, context restored
+3902, 1, switch to user model
+3903, 1000: interrupt
+3903,100, CPU executing
+4003, 1, switch to kernel mode
+4004, 10, context saved
+4014, 1, find vector 12 in memory position 0x0018
+4015, 1, load address 0X03B9 into the PC
+4016,40, execute ISR activity
+4056,40, execute ISR activity
+4096,40, execute ISR activity
+4136,25, execute ISR activity
+4161,1, IRET
+4162,10, context restored
+4172, 1, switch to user model
+4173, 1, switch to kernel mode
+4174, 10, context saved
+4184, 1, find vector 12 in memory position 0x0018
+4185, 1, load address 0X03B9 into the PC
+4186,40, execute ISR activity
+4226,40, execute ISR activity
+4266,40, execute ISR activity
+4306,25, execute ISR activity
+4331,1, IRET
+4332,10, context restored
+4342, 1, switch to user model
+4343, 145: interrupt
+4343,20, CPU executing
+4363, 1, switch to kernel mode
+4364, 10, context saved
+4374, 1, find vector 5 in memory position 0x000A
+4375, 1, load address 0X048B into the PC
+4376,40, execute ISR activity
+4416,40, execute ISR activity
+4456,40, execute ISR activity
+4496,40, execute ISR activity
+4536,40, execute ISR activity
+4576,11, execute ISR activity
+4587,1, IRET
+4588,10, context restored
+4598, 1, switch to user model
+4599, 1, switch to kernel mode
+4600, 10, context saved
+4610, 1, find vector 5 in memory position 0x000A
+4611, 1, load address 0X048B into the PC
+4612,40, execute ISR activity
+4652,40, execute ISR activity
+4692,40, execute ISR activity
+4732,40, execute ISR activity
+4772,40, execute ISR activity
+4812,11, execute ISR activity
+4823,1, IRET
+4824,10, context restored
+4834, 1, switch to user model
+4835, 211: interrupt
+4835,30, CPU executing
+4865, 1, switch to kernel mode
+4866, 10, context saved
+4876, 1, find vector 3 in memory position 0x0006
+4877, 1, load address 0X042B into the PC
+4878,40, execute ISR activity
+4918,40, execute ISR activity
+4958,40, execute ISR activity
+4998,40, execute ISR activity
+5038,40, execute ISR activity
+5078,40, execute ISR activity
+5118,40, execute ISR activity
+5158,20, execute ISR activity
+5178,1, IRET
+5179,10, context restored
+5189, 1, switch to user model
+5190, 1, switch to kernel mode
+5191, 10, context saved
+5201, 1, find vector 3 in memory position 0x0006
+5202, 1, load address 0X042B into the PC
+5203,40, execute ISR activity
+5243,40, execute ISR activity
+5283,40, execute ISR activity
+5323,40, execute ISR activity
+5363,40, execute ISR activity
+5403,40, execute ISR activity
+5443,40, execute ISR activity
+5483,20, execute ISR activity
+5503,1, IRET
+5504,10, context restored
+5514, 1, switch to user model
+5515, 300: interrupt
