@@ -2,7 +2,7 @@
 50, 1, switch to kernel mode
 51, 10, context saved
 61, 1, find vector 7 in memory position 0x000E
-62, 1, load address 0X00BD into the PC
+62, 1, load address 0X00BD into the PC
 63,40, execute ISR activity
 103,40, execute ISR activity
 143,40, execute ISR activity
@@ -13,7 +13,7 @@
 227, 1, switch to kernel mode
 228, 10, context saved
 238, 1, find vector 7 in memory position 0x000E
-239, 1, load address 0X00BD into the PC
+239, 1, load address 0X00BD into the PC
 240,40, execute ISR activity
 280,40, execute ISR activity
 320,40, execute ISR activity
@@ -26,7 +26,7 @@
 479, 1, switch to kernel mode
 480, 10, context saved
 490, 1, find vector 5 in memory position 0x000A
-491, 1, load address 0X048B into the PC
+491, 1, load address 0X048B into the PC
 492,40, execute ISR activity
 532,40, execute ISR activity
 572,40, execute ISR activity
@@ -39,7 +39,7 @@
 715, 1, switch to kernel mode
 716, 10, context saved
 726, 1, find vector 10 in memory position 0x0014
-727, 1, load address 0X07B0 into the PC
+727, 1, load address 0X07B0 into the PC
 728,40, execute ISR activity
 768,40, execute ISR activity
 808,40, execute ISR activity
@@ -63,7 +63,7 @@
 1355, 1, switch to kernel mode
 1356, 10, context saved
 1366, 1, find vector 14 in memory position 0x001C
-1367, 1, load address 0X0165 into the PC
+1367, 1, load address 0X0165 into the PC
 1368,40, execute ISR activity
 1408,40, execute ISR activity
 1448,40, execute ISR activity
@@ -82,7 +82,7 @@
 1836, 1, switch to kernel mode
 1837, 10, context saved
 1847, 1, find vector 19 in memory position 0x0026
-1848, 1, load address 0X0765 into the PC
+1848, 1, load address 0X0765 into the PC
 1849,40, execute ISR activity
 1889,40, execute ISR activity
 1929,40, execute ISR activity
@@ -108,7 +108,7 @@
 2588, 1, switch to kernel mode
 2589, 10, context saved
 2599, 1, find vector 6 in memory position 0x000C
-2600, 1, load address 0X0639 into the PC
+2600, 1, load address 0X0639 into the PC
 2601,40, execute ISR activity
 2641,40, execute ISR activity
 2681,40, execute ISR activity
@@ -122,7 +122,7 @@
 2878, 1, switch to kernel mode
 2879, 10, context saved
 2889, 1, find vector 8 in memory position 0x0010
-2890, 1, load address 0X06EF into the PC
+2890, 1, load address 0X06EF into the PC
 2891,40, execute ISR activity
 2931,40, execute ISR activity
 2971,40, execute ISR activity
@@ -156,7 +156,7 @@
 4003, 1, switch to kernel mode
 4004, 10, context saved
 4014, 1, find vector 12 in memory position 0x0018
-4015, 1, load address 0X03B9 into the PC
+4015, 1, load address 0X03B9 into the PC
 4016,40, execute ISR activity
 4056,40, execute ISR activity
 4096,40, execute ISR activity
@@ -167,7 +167,7 @@
 4173, 1, switch to kernel mode
 4174, 10, context saved
 4184, 1, find vector 12 in memory position 0x0018
-4185, 1, load address 0X03B9 into the PC
+4185, 1, load address 0X03B9 into the PC
 4186,40, execute ISR activity
 4226,40, execute ISR activity
 4266,40, execute ISR activity
@@ -180,7 +180,7 @@
 4433, 1, switch to kernel mode
 4434, 10, context saved
 4444, 1, find vector 13 in memory position 0x001A
-4445, 1, load address 0X06C7 into the PC
+4445, 1, load address 0X06C7 into the PC
 4446,40, execute ISR activity
 4486,40, execute ISR activity
 4526,40, execute ISR activity
@@ -203,7 +203,7 @@
 5094, 1, switch to kernel mode
 5095, 10, context saved
 5105, 1, find vector 15 in memory position 0x001E
-5106, 1, load address 0X0584 into the PC
+5106, 1, load address 0X0584 into the PC
 5107,40, execute ISR activity
 5147,28, execute ISR activity
 5175,1, IRET
@@ -214,7 +214,7 @@
 5207, 1, switch to kernel mode
 5208, 10, context saved
 5218, 1, find vector 5 in memory position 0x000A
-5219, 1, load address 0X048B into the PC
+5219, 1, load address 0X048B into the PC
 5220,40, execute ISR activity
 5260,40, execute ISR activity
 5300,40, execute ISR activity
@@ -227,7 +227,7 @@
 5443, 1, switch to kernel mode
 5444, 10, context saved
 5454, 1, find vector 5 in memory position 0x000A
-5455, 1, load address 0X048B into the PC
+5455, 1, load address 0X048B into the PC
 5456,40, execute ISR activity
 5496,40, execute ISR activity
 5536,40, execute ISR activity
@@ -242,7 +242,7 @@
 5709, 1, switch to kernel mode
 5710, 10, context saved
 5720, 1, find vector 3 in memory position 0x0006
-5721, 1, load address 0X042B into the PC
+5721, 1, load address 0X042B into the PC
 5722,40, execute ISR activity
 5762,40, execute ISR activity
 5802,40, execute ISR activity
@@ -257,7 +257,7 @@
 6034, 1, switch to kernel mode
 6035, 10, context saved
 6045, 1, find vector 3 in memory position 0x0006
-6046, 1, load address 0X042B into the PC
+6046, 1, load address 0X042B into the PC
 6047,40, execute ISR activity
 6087,40, execute ISR activity
 6127,40, execute ISR activity

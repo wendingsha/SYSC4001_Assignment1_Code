@@ -89,7 +89,7 @@ int main(int argc, char** argv) {
 
     input_file.close();
 
-    write_output(execution);
+    write_output(execution, "output_files/execution.txt");  
 
     return 0;
 }

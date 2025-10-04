@@ -1,11 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
 
-g++ -std=c++17 -Wall -O2 interrupts.cpp -o interrupt
+# Ensure Linux line endings: run `dos2unix build.sh` once if needed
 
+mkdir -p bin output_files
 
-if [ $? -eq 0 ]; then
-    echo "Build success, running program..."
-    ./interrupt trace.txt vector_table.txt device_table.txt
-else
-    echo "Build failed!"
-fi
+# Compile to bin/interrupts (note the name!)
+g++ -std=c++17 -O2 -Wall -Wextra interrupts.cpp -o bin/interrupts
 
+echo "Build complete -> bin/interrupts"
+echo "Run with:"
+echo "  ./bin/interrupts input_files/trace.txt input_files/vector_table.txt input_files/device_table.txt"
